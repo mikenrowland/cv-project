@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+nav .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav .nav-links .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.45em;
+    color: whitesmoke;
+}

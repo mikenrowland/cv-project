@@ -1,0 +1,53 @@
+.resume {
+    background-color: wheat;
+    color: rgb(50, 33, 33);
+}
+
+.education, .employment, .skills {
+    display: flex;
+    margin: auto;
+    width: 1120px;
+    text-align: left;
+    padding-top: 5em;
+    gap: 10em;
+}
+
+.employ {
+    gap: 8em;
+}
+
+.employ h2 {
+    padding-top: 5px;
+}
+
+.spa span {
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    word-spacing: 0.05em;
+}
+
+.spa i {
+    padding-left: 0.5em;
+    opacity: 70%;
+    font-size: medium;
+}
+
+.spa p {
+    text-align: justify;
+}
+
+.spa h2 {
+    font-size: large;
+}
+
+.spa, .spa h2 {
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    word-spacing: 0.05em;
+}
+
+.skills ul {
+    margin-left: -55px;
+}

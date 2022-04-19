@@ -1,0 +1,36 @@
+.about {
+    background-color: rgb(50, 33, 33);
+    color: wheat;
+    height: 75vh;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.about-me p, .contact p {
+    text-align: justify;
+    padding: 20px 100px 0 100px;
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    opacity: 75%;
+    word-spacing: 0.05em;
+}
+
+.about-me h2, .contact h2 {
+    letter-spacing: 0.25em;
+    padding-top: 30px;
+    /* padding-bottom: -5px; */
+    font-size: x-large;
+}
+
+.contact {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+
+.contact p {
+    text-align: justify;
+    padding-top: 33px;
+}

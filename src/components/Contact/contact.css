@@ -1,0 +1,16 @@
+.card {
+    /* display: flex; */
+    gap: 30px;
+    width: 650px;
+    height: 450px;
+    background-color: rgb(83, 50, 50);
+    margin: auto;
+    margin-bottom: 5em;
+    color: wheat;
+    border-radius: 10px;
+}
+
+.card-addr {
+    text-align: left;
+    
+}
