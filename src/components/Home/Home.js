@@ -2,12 +2,12 @@ import React from 'react';
 import './home.css';
 // import ikorodu from './public/ikorodu.jpg';
 
-// const background = new URL("/public/ikorodu.jpg", import.meta.url);
+const Mykie = new URL("/public/Mykie.jpg", import.meta.url);
 
 function Home() {
   return (
     <div className="home" id='hme'>
-        <img src="/reactApp/src/images/Mykie.jpg" alt="imageOfMike"></img>
+        <img className='img-mike' src={Mykie} alt="imageOfMike"></img>
         <h1>Michael Rowland Ngwube</h1>
         <div className="intro">
             <p>

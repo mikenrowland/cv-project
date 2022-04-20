@@ -1,5 +1,5 @@
 .contact-me{
-    background: url(C:/Users/HP-EliteBook/REACT/myCV_project/cv-project/public/staticmap.png);
+    background: url(/public/staticmap.png);
     background-size: cover;
     background-attachment: fixed;
     height: 75vh;
@@ -57,7 +57,7 @@
     line-height: 1.5em;
     font-weight: 600;
     box-shadow: 0.25px 0.25px 5px wheat;
-    border: none;
+    border: 1px solid rgb(83, 50, 50);
 }
 
 /* .card-addr {
