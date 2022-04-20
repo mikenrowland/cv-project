@@ -6,11 +6,11 @@ function Navbar() {
     <div>
         <nav>
             <ul className="nav-links">
-                <li className="nav-link"> Home </li>
-                <li className="nav-link"> About </li>
-                <li className="nav-link"> Resume </li>
-                <li className="nav-link"> Projects </li>
-                <li className="nav-link"> Contact </li>
+                <li className="nav-link"><a href='#hme'>Home</a></li>
+                <li className="nav-link"><a href='#abt'>About</a></li>
+                <li className="nav-link"><a href='#res'>Resume</a></li>
+                <li className="nav-link"><a href='#pjt'>Projects</a></li>
+                <li className="nav-link"><a href='#con'>Contact</a></li>
             </ul>
         </nav>
     </div>

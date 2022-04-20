@@ -4,7 +4,7 @@ import './resume.css'
 
 function Resume() {
   return (
-    <div className="resume">
+    <div className="resume" id='res'>
         <div className="education spa">
             <h2>EDUCATION</h2>
             <div>

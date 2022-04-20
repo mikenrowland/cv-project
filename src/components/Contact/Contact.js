@@ -3,7 +3,7 @@ import './contact.css'
 
 function Contact() {
   return (
-    <div>
+    <div className='contact-me' id='con'>
         <h2>Contact Me</h2>
         <div className="card">
             <form className="card-form">
@@ -31,7 +31,7 @@ function Contact() {
                 <div className="row mb-3">
                     <div className="col">
                         <div className="form-group">
-                        <textarea className="form-input" name="message" placeholder="Your Message" required="required"></textarea>
+                        <textarea className="form-input" name="message" placeholder="Your Message" rows={10} cols={60} required="required"></textarea>
                         </div>
                     </div>
                 </div>

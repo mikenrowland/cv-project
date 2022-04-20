@@ -1,8 +1,9 @@
 nav {
     display: flex;
     justify-content: center;
-    background-color: black;
-    
+    background-color: #333;
+    position: fixed;
+    width: 100%;
 }
 
 nav .nav-links {
@@ -16,4 +17,9 @@ nav .nav-links .nav-link {
     font-weight: 600;
     letter-spacing: 0.45em;
     color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
 }

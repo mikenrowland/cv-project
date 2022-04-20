@@ -2,7 +2,7 @@
     /* background-image: url(/reactApp/src/images/ikorodu.jpg); */
     background: linear-gradient(45deg, rgb(214, 86, 86), rgb(221, 172, 172));
     background-attachment: fixed;
-    height: 90vh;
+    height: 95vh;
     margin-top: -5px;
     padding-top: 30px;
 }
@@ -21,7 +21,15 @@ h1 {
     padding: 50px;
     background-color: rgb(221, 172, 172);
     border-radius: 20px;
-    text-align: justify;
+    text-align: center;
+}
+
+.intro p {
+  font-size: large;
+  letter-spacing: 0.2em;
+  line-height: 1.5em;
+  font-weight: 500;
+  opacity: 70%;
 }
 
 .icon-container ul {

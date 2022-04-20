@@ -1,16 +1,57 @@
 .card {
-    /* display: flex; */
     gap: 30px;
-    width: 650px;
-    height: 450px;
+    max-width: fit-content;
+    max-height: fit-content;
     background-color: rgb(83, 50, 50);
     margin: auto;
     margin-bottom: 5em;
     color: wheat;
     border-radius: 10px;
+    align-items: center;
 }
 
-.card-addr {
+.contact-me h2 {
+    color: rgb(83, 50, 50);
+    letter-spacing: 0.25em;
+    padding-top: 30px;
+    font-size: x-large;
+}
+
+.card-form {
+    padding: 25px;
+}
+
+.form-input {
+    width: 500px;
+    height: 25px;
+    font-size: 15px;
+    margin: 10px 40px 10px 40px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 25px;
+    background-color: wheat;
+    color: rgb(83, 50, 50);
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    word-spacing: 0.05em;
+    border: rgb(83, 50, 50);
+}
+
+.btn {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+    height: 35px;
+    color: rgb(83, 50, 50);
+    background-color: rgb(153, 123, 123);
+    border-radius: 5px;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    font-weight: 600;
+    box-shadow: 0.25px 0.25px 5px wheat;
+    border: none;
+}
+
+/* .card-addr {
     text-align: left;
     
-}
+} */
