@@ -1,3 +1,11 @@
+.contact-me{
+    background: url(C:/Users/HP-EliteBook/Downloads/staticmap.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 75vh;
+    padding-top: 20px;
+}
+
 .card {
     gap: 30px;
     max-width: fit-content;
@@ -10,8 +18,8 @@
     align-items: center;
 }
 
-.contact-me h2 {
-    color: rgb(83, 50, 50);
+.card h2 {
+    color: wheat;
     letter-spacing: 0.25em;
     padding-top: 30px;
     font-size: x-large;
@@ -39,6 +47,7 @@
 .btn {
     margin-top: 25px;
     margin-bottom: 25px;
+    font-size: large;
     width: 50%;
     height: 35px;
     color: rgb(83, 50, 50);

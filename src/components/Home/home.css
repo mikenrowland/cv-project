@@ -1,8 +1,9 @@
 .home {
-    /* background-image: url(/reactApp/src/images/ikorodu.jpg); */
-    background: linear-gradient(45deg, rgb(214, 86, 86), rgb(221, 172, 172));
+    background: url(C:/Users/HP-EliteBook/Downloads/ikorodu.jpg);
+    background-size: cover;
+    background-repeat: round;
     background-attachment: fixed;
-    height: 95vh;
+    height: 100vh;
     margin-top: -5px;
     padding-top: 30px;
 }
@@ -11,7 +12,7 @@ h1 {
     font-size: 65px;
     font-weight: 900;
     margin-bottom: 75px;
-    color: rgb(50, 33, 33);
+    color: wheat;
 }
 
 .intro {
@@ -19,23 +20,28 @@ h1 {
     margin: auto;
     font-size: x-large;
     padding: 50px;
-    background-color: rgb(221, 172, 172);
+    background-color: wheat;
     border-radius: 20px;
     text-align: center;
+    opacity: 80%;
 }
 
 .intro p {
   font-size: large;
   letter-spacing: 0.2em;
   line-height: 1.5em;
-  font-weight: 500;
-  opacity: 70%;
+  font-weight: 600;
+  /* opacity: 70%; */
 }
 
 .icon-container ul {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.anc {
+  color: #1c5152;
 }
 
 /* ul {

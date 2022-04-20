@@ -4,8 +4,8 @@ import './contact.css'
 function Contact() {
   return (
     <div className='contact-me' id='con'>
-        <h2>Contact Me</h2>
         <div className="card">
+            <h2>Contact Me</h2>
             <form className="card-form">
                 <div className="row mb-3">
                     <div className="col">
